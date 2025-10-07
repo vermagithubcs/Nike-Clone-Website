@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import PreLoader from "./Common/PreLoader";
 import { useEffect, useState } from "react";
-const page = () => {
+const Page = () => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,4 +25,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
